@@ -1,0 +1,35 @@
+{
+  "name": "inverse-lerp",
+  "version": "1.0.0",
+  "description": "Get a value's interpolant within a linear range, effectively remapping a value v within [a, b] to [0, 1].",
+  "keywords": [
+    "inverse-lerp",
+    "interpolation",
+    "inv-lerp",
+    "lerp"
+  ],
+  "homepage": "https://github.com/dmnsgn/inverse-lerp",
+  "bugs": "https://github.com/dmnsgn/inverse-lerp/issues",
+  "repository": "dmnsgn/inverse-lerp",
+  "funding": [
+    {
+      "type": "individual",
+      "url": "https://paypal.me/dmnsgn"
+    },
+    {
+      "type": "individual",
+      "url": "https://commerce.coinbase.com/checkout/56cbdf28-e323-48d8-9c98-7019e72c97f3"
+    }
+  ],
+  "license": "MIT",
+  "author": "Damien Seguin (https://github.com/dmnsgn)",
+  "sideEffects": false,
+  "type": "module",
+  "exports": "./index.js",
+  "main": "index.js",
+  "types": "types/index.d.ts",
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=9.6.4"
+  }
+}
