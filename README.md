@@ -40,7 +40,23 @@ const t = inverseLerp(a, b, value);
 
 <!-- api-start -->
 
-Auto-generated API content.
+<a name="module_inverseLerp"></a>
+
+## inverseLerp
+
+<a name="exp_module_inverseLerp--inverseLerp"></a>
+
+### inverseLerp(a, b, v) ⇒ <code>number</code> ⏏
+
+Get a value's interpolant within a linear range, effectively remapping a value v within [a, b] to [0, 1].
+
+**Kind**: Exported function
+
+| Param | Type                | Description |
+| ----- | ------------------- | ----------- |
+| a     | <code>number</code> | Start       |
+| b     | <code>number</code> | End         |
+| v     | <code>number</code> | Value       |
 
 <!-- api-end -->
 
