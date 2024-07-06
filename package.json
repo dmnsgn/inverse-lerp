@@ -1,6 +1,6 @@
 {
   "name": "inverse-lerp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get a value's interpolant within a linear range, effectively remapping a value v within [a, b] to [0, 1].",
   "keywords": [
     "inverse-lerp",
@@ -10,7 +10,10 @@
   ],
   "homepage": "https://github.com/dmnsgn/inverse-lerp",
   "bugs": "https://github.com/dmnsgn/inverse-lerp/issues",
-  "repository": "dmnsgn/inverse-lerp",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmnsgn/inverse-lerp.git"
+  },
   "funding": [
     {
       "type": "individual",
